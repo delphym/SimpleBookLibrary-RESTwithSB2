@@ -1,6 +1,6 @@
 package net.delphym.booklib;
 
-import net.delphym.booklib.domain.Book;
+import net.delphym.booklib.model.Book;
 import net.delphym.booklib.repo.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
