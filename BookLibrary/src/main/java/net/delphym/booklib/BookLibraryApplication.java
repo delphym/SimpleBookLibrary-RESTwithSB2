@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class BookLibraryApplication {
 
 	@Autowired
-	BookRepository bookRepo;
+	private BookRepository bookRepo;
 
 	@Component
 	class DataSetup implements ApplicationRunner {
